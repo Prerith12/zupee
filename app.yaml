@@ -1,0 +1,15 @@
+runtime: nodejs20
+instance_class: F1
+
+env_variables:
+  NODE_ENV: 'production'
+  PORT: '8080'
+  ADMIN_EMAIL: 'admin@zupee.com'
+  ADMIN_PHONE: '9497088200'
+  UPI_ID: 'Prerithprabhu@slc'
+
+handlers:
+  - url: /.*
+    script: auto
+    secure: always
+

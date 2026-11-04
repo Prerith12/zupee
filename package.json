@@ -1,0 +1,23 @@
+{
+  "name": "zupee",
+  "version": "1.0.0",
+  "description": "Zupee - Modern Multi-Platform Affiliate & E-Commerce Website with UPI Checkout & SMS Alerts",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": [
+    "ecommerce",
+    "affiliate",
+    "meesho",
+    "flipkart",
+    "amazon",
+    "upi",
+    "zupee"
+  ],
+  "author": "Prerith Prabhu N",
+  "license": "ISC"
+}
+
